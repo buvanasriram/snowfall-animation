@@ -15,6 +15,6 @@ class Snow {
       imageMode(CENTER);
       fill(10,110,90);
       ellipseMode(RADIUS)
-      image(this.image, pos.x, pos.y, this.radius, this.radius);
+      image(this.image, pos.x, pos.y, this.radius*2, this.radius*2);
     }
   };
