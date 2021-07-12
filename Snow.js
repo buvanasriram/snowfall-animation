@@ -6,7 +6,7 @@ class Snow {
 
       }
       this.image = loadImage("snow4.webp")
-      this.body = Bodies.circle(x,y,radius,options);
+      this.body = Bodies.circle(x,y,radius-10,options);
       this.radius = radius
       World.add(world, this.body);
     }
